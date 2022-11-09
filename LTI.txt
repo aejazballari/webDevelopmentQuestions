@@ -1,0 +1,27 @@
+//HTML5
+1. What are semantic ui elements? What is use of it?
+2. What are HTML apis?
+3. What are session and local storage?
+
+//CSS
+1. What is specificity?
+2. How will you make responsive web app?
+3. What are psuedo selector?
+4. Expain position?
+5. What is border box and box sizing?
+
+//JAVASCRIPT
+1. call, apply, bind
+2. async await, promises, callback
+3. callback hell?
+4. map, filter, reduce
+5. spread operator?
+6. es6 features
+7. What are pure components?
+
+//React
+1. lifecycle methods in class components and functional components;
+2. error voundaries?
+
+//Redux
+1. What is middleware?
