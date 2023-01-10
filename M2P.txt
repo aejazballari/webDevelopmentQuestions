@@ -7,6 +7,9 @@
 7. lifecycle methods?
 8. what is closure?		
 9. server side rendering vs client side rendering?
+10. What are custom hooks?
+11. What is useRef?
+12. What happen if you store data in variable instead of useState hook?
 
 ====== code samples =========
 1. var salary = 5000;
