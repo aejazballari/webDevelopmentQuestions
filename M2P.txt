@@ -1,0 +1,52 @@
+1. what is hosting?
+2. what is rest api?
+3. diff btw rdms and nosql ?
+4. collection, document and tuple?
+5. diff btw access token and cookies?
+6. what is autentication and authorization?
+7. lifecycle methods?
+8. what is closure?		
+9. server side rendering vs client side rendering?
+
+====== code samples =========
+1. var salary = 5000;
+(function(){
+    console.log(salary);
+    var salary = 1000
+    console.log(salary);
+}())
+
+2. var salary = 5000;
+(function(){
+    console.log(salary);
+    salary = 1000
+    console.log(salary);
+}())
+
+========== coding =============
+1. Create a start and stop counter using reactjs?
+2. const total = valueCalculator().crore(4).lakh(35).thousand(50).crore(2).lakh(20).crore(7).thousand(12).value()
+console.log(total);
+output: 135562000 
+3. const obj = {
+    A: 23,
+    T: "43",
+    L: {
+        P: '9',
+        O: {
+            K: '67'
+        },
+        M: ['10', '54']
+    }
+
+}
+
+output:
+{
+    A: 23,
+    T: "43",
+    "L.P": '9',
+    "L.O.K": '67',
+    "L.M.0": '10',
+    "L.M.1": '54'
+}

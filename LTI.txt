@@ -17,11 +17,12 @@
 4. map, filter, reduce
 5. spread operator?
 6. es6 features
-7. What are pure components?
+7. deep copy and shallow copy?
 
 //React
 1. lifecycle methods in class components and functional components;
 2. error voundaries?
+3. What are pure components?
 
 //Redux
 1. What is middleware?

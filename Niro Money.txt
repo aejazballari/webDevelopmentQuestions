@@ -1,0 +1,31 @@
+// function sayHello () {
+//     var say = function () {console.log(hello)}
+//     var hello = 'hwllo world'
+//     return say
+// }
+
+// const newHello = sayHello()
+// newHello()
+
+// var Employee = {company : 'xyz'}
+// var Empl1 = Object.create(Employee)
+// delete Employee.company
+// console.log(Empl1.company);
+
+const arr =  [13, 14, 15, 16, 17, 1, 2, 3, 4, 5, 6, 7]
+
+const getMaxLengthOfSeq = (arr) => {
+    let newArr = [], maxLength=0, currentLength=1;
+    for (let i = 0; i < arr.length; i++) {
+        if((arr[i] + 1) === arr[i+1]) {
+           currentLength++
+           if(maxLength < currentLength) maxLength = currentLength
+        } else {
+            currentLength = 1
+        }
+        
+    }
+    console.log(newArr, maxLength);
+}
+
+getMaxLengthOfSeq(arr)
