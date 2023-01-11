@@ -1,0 +1,47 @@
+1. Give an example for shallow copy and deep copy? And methods how to do it?
+2. What are design pattern that you are aware of?
+3. How to do you add events to an element?
+4. How to do make button which is clickable only once?
+5. When do you class based components instead of functional based components?
+6. How do you validate props?
+7. What is algorithm used in virtual dom?
+
+========= code snippets ================
+
+1. greetings()
+var greetings = function () {
+    console.log('first greeting');
+}
+greetings();
+function greetings() {
+    console.log('second greeting');
+}
+greetings()
+
+2. const obj = {
+    name: 'my name'
+}
+
+const newObj = Object.create(obj)
+delete newObj.name
+console.log(newObj.name);
+
+3. console.log({} === {});
+console.log({} == {});
+console.log([] == []);
+
+4. var bool = true;
+function print(args) {
+	console.log(args+true)
+}
+print(bool)
+
+5. var salary = 5000;
+(function(){
+    console.log(salary);
+    var salary = 1000
+    console.log(salary);
+}())
+
+========== coding ============
+1. write  a logic for multiselect in react?
