@@ -1,0 +1,43 @@
+1. What is closure?
+2. What is == and === ?
+3. How many ways data types are categoried in javascript?
+4. How can you tell string is primitive data type and if it is primitive How methods are available on it?
+5. What is position relative and absolute?
+6. What is Typescript? Why do we need it?
+7. What is Jwt autentication? When do we need it?
+8. What is 200, 400, 500 status codes? 
+9. What is middleware in redux? and give examples?
+10. Wnat is context api?
+
+
+============ code snippets ==============
+
+console.log(Number('5') == '5');
+console.log(5 === parseFloat('5'));
+console.log(5 === parseInt('5'));
+
+
+============ coding =============
+
+1. const people = [
+  { name: "John", age: 30 },
+  { name: "James", age: 16 },
+  { name: "Ralph", age: 52 },
+  { name: "Alexandra", age: 23 },
+  { name: "Ricky", age: 17 }
+];
+
+
+
+document.getElementById("app").innerHTML = `
+<div>Adult people: </div>
+<ul>
+  ${
+    people.map((item) => {
+    return `<li>${item.name}, ${item.age}</li>`
+})
+  }
+</ul>
+`;
+
+2. Counter in react

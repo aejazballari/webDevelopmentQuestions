@@ -1,0 +1,15 @@
+1. What are html5 features?
+2. What is geolocation api?
+3. What are css3 features?
+4. What is flexbox?
+5. What is Ecmascript features and explain?
+6. What is reconciliation?
+7. What is difference between functional and class based components?
+8. What is HOC?
+9. What is WCAG?
+10. What is useState?
+
+
+
+======= Coding =========
+1. Have two components parent and child, input any number and display any multiple of that input as result in browser by passing data from child to parent?

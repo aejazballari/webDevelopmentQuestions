@@ -1,0 +1,37 @@
+1. what is difference between nextjs and reactjs?
+2. How do you do server side rendering in nextjs?
+3. Dynamic Routing example in nextjs?
+4. What is promise?
+5. What is async await?
+6. How will you resolve 4 api's sebsequently?
+7. How will execute code even after promise is resolved or rejected?
+
+
+====== code snippets ======
+1. const pr = new Promise((resolve,reject)=>{
+  let a =1
+    resolve("Over");
+    setTimeout(()=>{
+        resolve("Again");
+
+    
+      console.log('sss')
+        
+           resolve("Again");
+        
+      
+    },2000)
+    console.log(a)
+    
+  
+    
+})
+pr.then((msg)=>{
+   console.log(msg);
+   return pr;
+}).then((msg)=>{
+    console.log("msg",msg);
+}).finally(()=>{
+  console.log("endsss")
+})
+// 1, over, sss, again, again, 1, over, sss, again, again, endsss --- MY ANSWER

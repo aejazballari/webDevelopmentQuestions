@@ -1,0 +1,8 @@
+1. How will raise PR?
+2. How long sprints you had?
+3. What best practices you follow?
+4. How will you check code quality?
+5. What are the challenges you have faced in your project?
+6. How many days each sprint last?
+7. Which stories you have worked on and what are story points?
+8. Who is your recent project client?

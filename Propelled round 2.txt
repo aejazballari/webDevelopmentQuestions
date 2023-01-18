@@ -1,0 +1,9 @@
+1. build a tooltip library?
+2. write a polyfill for promises?
+3. what is debounce and throtling?
+4. when do use debounce and throtling, explain with example?
+5. build custom hook for window resizing?
+6. how do you check deep equality?
+7. Why do use functional components upon class components?
+8. Tell me one scenario where you can use class components over functional components?
+9. What a polyfill?
